@@ -1,0 +1,26 @@
+        Struct 的基本結構
+        
+struct   類型名稱 {
+    可定義變數 ( 例︰string code; )
+    可定義函數 (例︰int addStudent() {….})
+}
+例︰
+struct books {
+string code;
+string title;
+string author;
+string isbn;
+int price;
+}
+
+_________________________________________________________________________________
+        Struct 的運用 
+       
+struct 不能直接使用，要給予一個實體的名稱。例如
+    你不能直接使用 books，如 books.code = “A001”; 
+    以上的程式碼是錯誤。
+
+給予一個實體名稱︰
+  books  mybook;
+  mybook.code = “A002”; 
+以上的程式碼是正確。 
